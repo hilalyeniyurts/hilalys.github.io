@@ -163,15 +163,16 @@ header #banner{
     font-family: 'Raleway', "sans serif";
 }
 #section3 .resim{
+    height: 610px;
     width: 500px;
     float: left;
     background: #fff;
     margin: 50px 20px;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 3px #ccc;
+
 }
 #section3 .resim2{
-    height: 610px;
     width: 500px;
     float: left;
     background: #fff;
@@ -180,9 +181,16 @@ header #banner{
     box-shadow: 1px 1px 3px #ccc;
 }
     
-#section3 img{
+#section3 .resim img{
     width: 500px;
     margin: 0;
+}
+#section3 .resim2 img{
+    width: 500px;
+    margin: 0;
+    height: 500px;
+    
+    
 }
 
 #section3 .kapsayici2{
