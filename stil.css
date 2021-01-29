@@ -24,7 +24,7 @@ div.transbox {
     margin: 30px;
     background-color:white;
     border: 2px solid black;
-    opacity: 0.4;
+    opacity: 0.6;
 }
 div.transbox p {
     margin: 4%;
@@ -128,13 +128,13 @@ header #banner{
  
 
 }
-#section2 .sag{
+#section2 .sag p{
     width: 400px;
     float: right;
     padding-right: 50px;
     margin-left: 40px;
     color: black;
-    font-family: Garamond, serif;
+    font-family: 'Raleway', "sans serif";
     line-height: 30px;
     font-size: 15px;
 
@@ -236,19 +236,20 @@ header #banner{
 }
 #section4 .bolumler .kucukresim{
     float: right;
-    width: 130px;
+    width: 150px;
     margin: 10px;
 }
 #section4 .bolumler .kucukresim img{
-    border: 3px solid #B0B0B0;
-    border-radius: 100%;
-    width: 130px;
+    border: 1px solid #B0B0B0;
+    border-radius: 30%;
+    width: 160px;
+    height: 150px;
 }
-#section4 .bolumler .yazi{
+#section4 .bolumler .yazi p{
     float: left;
-    width: 330px;
+    width: 300px;
     text-align: right;
-    padding: 10px;
+    padding: 15px;
     line-height: 25px;
 }
 #section4 .bolumler .h3{
@@ -298,7 +299,7 @@ header #banner{
 }
 #section5 .icerik p {
     color: #aaa;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 50px;
 }
 #section5 .icerik a {
@@ -355,22 +356,10 @@ footer a[title="linkedin"]:before {
 	height: 42px;
     display: inline-block;
 }
-footer ul {
-    list-style: none;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-footer ul li {
-    display: inline-block;
-    padding: 2px 25px;
-}
-footer ul li p {
-    font-size: 20px;
-    font-family: "Raleway", Arial, Helvetica, sans-serif, san;
-    color: darkgrey;
-}
+
+
+
+
 footer ul li:nth-child(-n+2) {
     border-right: 2px solid #B4B1B1;
 }
