@@ -12,12 +12,10 @@ body, strong, a, header {
 }
 header{
     background: url("img/Hogwarts_PM_B4C37M1_GreatHallMourningCedricsDeath_Moment.jpg");
-    position: relative;
+    position:relative;
     background-size: cover;
     width: 100%;
     height: 100vh;
-    margin: 0;
-    padding: 0;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 div.transbox {
@@ -52,33 +50,7 @@ header h1{
 header strong{
     font-weight: 700;
 }
-header ul{
-    list-style: none;
-    position: relative;
-    float: right;
-    right: 20px;
-    top: 0;
-}
-header ul li{
-    display: block;
-    padding: 30px;
-    float: left;
-}
-header ul li a{
-    font-size: 18px;
-    font-family: pt_sansregular;
-    font-weight: 100;
-    text-transform: uppercase;
-    color: #DBD8D8;
-    -webkit-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-   
-}
-header ul li a:hover{
-    color: white;
 
-}
 header #banner{
     width: 100%;
     position: absolute;
@@ -94,9 +66,10 @@ header #banner{
 }
 
 #section2{
-    width: 1000px;
-    margin: 0 auto;
+    width: 1440px;
+    margin:0 auto;
     padding: 50px 0;
+  
 }
 .kapsayici{
     width: 1000px;
@@ -209,7 +182,7 @@ header #banner{
     text-transform: uppercase;
 }
 #section4{
-    width: 100%;
+    width: 1480px;
     padding-top: 50px;
     text-align: center;
 }
@@ -277,7 +250,7 @@ header #banner{
     font-size: 18px;
 } 
 #section5 {
-    width: 100%;
+    width: 1480px;
     height: 350px;
     background: url("img/6CBF7191-4E95-4ED8-AE3A-801DDA2FC410.GIF");
     background-attachment: fixed;
@@ -292,6 +265,12 @@ header #banner{
     text-align: center;
 }
 #section5 .icerik h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+#section5 .icerik h3 {
     color: #fff;
     font-size: 36px;
     font-weight: 700;
@@ -319,47 +298,4 @@ footer {
     width: 100%;
     height: 350px;
     text-align: center;
-}
-footer .sosyal {
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-footer a {
-    position: relative;
-    display: inline-block;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 30px;
-    margin-bottom: 30px;
-}
-footer a[title="facebook"]:before {
-    content: '';
-    background: url(icons/facebook.png) no-repeat;
-    width: 45px;
-	height: 42px;
-	display: inline-block;
-}
-footer a[title="twitter"]:before {
-    content: '';
-    background: url(icons/twitter.png) no-repeat;
-    width: 45px;
-	height: 42px;
-	display: inline-block;
- 
-}
-footer a[title="linkedin"]:before {
-    content: '';
-    background: url(icons/linkedin.png) no-repeat;
-    width: 45px;
-	height: 42px;
-    display: inline-block;
-}
-
-
-
-
-footer ul li:nth-child(-n+2) {
-    border-right: 2px solid #B4B1B1;
 }
