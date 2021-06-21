@@ -14,7 +14,7 @@ header{
     background: url("img/Hogwarts_PM_B4C37M1_GreatHallMourningCedricsDeath_Moment.jpg");
     position:relative;
     background-size: cover;
-    width: 100%;
+    width: 1480px;
     height: 100vh;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
@@ -294,8 +294,4 @@ header #banner{
 #section5 .icerik a:hover {
     background: rgb(213, 214, 216);
 }
-footer {
-    width: 100%;
-    height: 350px;
-    text-align: center;
-}
+
